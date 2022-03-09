@@ -3,7 +3,7 @@
   padding: 0;
 }
 .fundo {
-  background-image: linear-gradient(90deg, black, #0a045a 100%);
+  background-image: linear-gradient(45deg, #000000, #23a0f5 100%);
   height: 100vh;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@
 }
 .calculadora {
   position: absolute;
-  background-color: #000000cc;
+  background-color: #000000;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -30,7 +30,7 @@
   color: #ffffff;
 }
 .botao:hover {
-  background-color: #0a045a;
+  background-color: #23a0f5;
 }
 #resultado {
   background-color: #ffffff;
